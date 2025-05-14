@@ -33,7 +33,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CRAWLER_CONFIG = {
     'MAIN_URL': "https://ko.taiwebs.com/windows",
     'DOMAIN': "https://ko.taiwebs.com",
-    'MAX_PAGES': 1,
+    'MAX_PAGES': 30,
     'URLS_FILE': os.path.join(BASE_DIR, "posts.json"),
     'OUTPUT_FILE': os.path.join(BASE_DIR, "data.2.json"),
     'DOWNLOAD_DIR': os.path.join(BASE_DIR, "downloaded_files"),
