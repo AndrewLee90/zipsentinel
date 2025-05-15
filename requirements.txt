@@ -1,0 +1,11 @@
+requests
+urllib3
+
+# 압축 해제
+rarfile==4.2
+py7zr
+pycryptodomex
+texttable
+
+# 자동화
+selenium==4.10.0
